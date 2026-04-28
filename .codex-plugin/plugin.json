@@ -1,0 +1,38 @@
+{
+  "name": "joai-xoxno",
+  "version": "0.3.0",
+  "description": "Connect XOXNO to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/xoxno",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "xoxno"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "XOXNO by JoAi",
+    "shortDescription": "Connect XOXNO to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "NFT marketplace and DeFi platform on MultiversX. Trade NFTs and access liquid staking services on the eGold ecosystem.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/xoxno",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the XOXNO tools available in this app.",
+      "Explain what setup or authentication XOXNO needs before I run an action.",
+      "Use XOXNO to help me with the task I describe next."
+    ]
+  }
+}
